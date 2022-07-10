@@ -1,0 +1,104 @@
+.titulo {
+    font-weight: bold;
+    font-size:xx-large;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.cajas {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.biografia {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: black;
+    width: 500px;
+    margin: 5px;
+    padding: 15px;
+    padding-top: 1px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.imagen {
+    width:400px;
+    align-items: center;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.info_adicional {
+    background-color: black;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    flex: 40%;
+    margin: 5px;
+    padding: 20px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.contenedor_videos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.vid0 {
+    display: flex;
+    flex-direction: row;
+}
+
+.vid1 {
+    margin: 30px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+    width: 570px;
+    height: 325;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.mail {
+    text-decoration: underline;
+    color: white;
+}
